@@ -24,7 +24,7 @@ var catObject = {
 
 // question 6
 
-console.log(catObject[2]);
+console.log(catObject.age);
 
 // question 7
 
@@ -39,13 +39,15 @@ var catArrey = [
 // question 8
 
 for (var i = 0; i < catArrey.length; i++) {
-  console.log(catArrey[i]);
+  console.log(catArrey[i].name);
+  console.log(catArrey[i].colour);
+  console.log(catArrey[i].age);
 }
 
 // question 9
 
-function logToConsole(trueorfalse) {
-  console.log(true);
+function logToConsole(animal) {
+    console.log(animal);
 }
 
 // question 10
