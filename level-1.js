@@ -88,7 +88,7 @@ function basketOfBals(basket1, basket2) {
   var sum = basket1 - basket2;
   console.log(sum);
 }
-basketOfBals(6, 2);
+basketOfBals(10, 5);
 
 
 // Question 10
